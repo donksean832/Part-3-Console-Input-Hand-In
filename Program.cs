@@ -59,7 +59,7 @@ namespace Part_3_Console_Input_Hand_In
             Leg1 = Convert.ToDouble(Console.ReadLine());
             Leg2 = Convert.ToDouble(Console.ReadLine());
             Hypot = Math.Round(Math.Sqrt((Leg1 * Leg1) + (Leg2 * Leg2)),2);
-            Console.WriteLine("The hypotenuse of your triangle is {Hypot}")
+            Console.WriteLine($"The hypotenuse of your triangle is {Hypot}.");
 
 
 
